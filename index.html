@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="description" content="QR code component">
+  <meta name="keywords" content="QR code component">
+  <link rel="icon" type="image/webp" sizes="32x32" href="./images/favicon-32x32.webp">
+  <title>Frontend Mentor | QR code component</title>  
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    body{
+      height: 100vh; 
+      background-color: #D6E1F0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .container{
+      width: 85%;
+    }
+    .card{      
+      background-color: #ffffff;
+      width: 300px;
+      text-align: center;
+      padding: 15px;
+      border-radius: 15px;
+      box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+    }
+    img{
+      width: 100%;
+      border-radius: 10px;
+    }
+    h3{
+      font-size: 20px;
+      margin: 20px 0px;      
+      color: #222C46;
+      line-height: 1.3;      
+    }
+    p{
+      font-size: 15px;
+      color: #83858B;
+      line-height: 1.3;      
+    }
+    .attribution {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translate(-50%);
+      font-size: 11px;
+    }
+    .attribution a {
+      color: #3e52a3; 
+    }
+
+    @media screen and (max-width: 375px) {
+      .container{
+        margin: auto;
+      }
+      .card{
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<main>      
+  <div class="container">
+    <div class="card">
+      <img src="./images/image-qr-code.webp" alt="qr-code">
+      <h3>Improve your front-end skills by building projects</h3>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+    </div> 
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Yomna Raafat</a>.
+    </div>
+  </div>
+</main>  
+    
+</body>
+</html>
